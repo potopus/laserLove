@@ -1,0 +1,43 @@
+$container-width: 1240px;
+$container-padding-x: 20px;
+$max-width-container: calc($container-width + $container-padding-x * 2);
+
+:root {
+    // color
+    // --color-ligth:;
+    // --color-dark:;
+    // --colo-dark-alt:;
+    // --color-gray:;
+    // --color-fray-alt:;
+    // --color-accent:;
+
+    --font-family-base: sans-serif;
+
+    // border
+    // --border: 1px solid var(--color-dark);
+    // --border-radius: ;
+    // --border-radius-small: ;
+    // --border-radius-large: ;
+
+    //  -- shadow:0 5px 0 0 var(--color-dark);
+
+    
+    
+    
+    // вертикальные отступы между секциями сверху-снизу т.t. делим на два
+    // --section-padding-y:
+    
+    // высоты кнопок и инпутов по макету
+    
+    // --input-height:;
+    // --button-height:;
+    
+    // --transition-duration:;
+    
+    // ! переменные sass не видны, если их принимают внутри блока {}
+    
+    --container-width: #{$container-width};
+    --container-padding-x: #{$container-padding-x};
+    
+}
+
