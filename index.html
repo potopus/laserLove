@@ -1,14 +1,673 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./assets/dist/swiper/swiper-bundle.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1> some</h1>
-<div class="container">any</div>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./assets/image/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu">
+                    <div class="destop-part">
+                        <ul class="menu-items">
+                            <li><a href="#">О студии</a></li>
+                            <li><a href="#">Услуги и прайс</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Команда</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-part-hidden">
+
+                    </div>
+                </div>
+                <div class="contacts"><a href="tel:+37377736624">+373 (777) 36-624</a></div>
+            </div>
+        </div>
+    </header>
+    <section class="banner">
+        <img class="image-bg" src="./assets/image/banner.jpg" alt="">
+        <div class="container container-banner">
+            <div class="banner-wrapper">
+                <h1 class="title">
+                    Центр красоты и здоровья
+                </h1>
+                <p class="annotation">
+                    С нами вы в <span class="underline">надежных</span> руках!
+                </p>
+                <div class="links">
+                    <div class="soc-links">
+                        <div class="soc-link">
+                            <!-- add SVG sprite -->
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#inst-light"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="soc-link">
+                            <!-- add SVG sprite -->
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#viber"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="soc-link">
+                            <!-- add SVG sprite -->
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#telegram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sign-btn">
+                        <div class="circle-image">
+                            <img class="btn-text" src="./assets/image/btn-text.png" alt="" class="circle-text">
+                        </div>
+                        <svg>
+                            <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="what-is">
+        <div class="container">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="image">
+                        <img src="./assets/image/what-is.png" alt="what is it">
+                    </div>
+                    <div class="content">
+                        <h2 class="title">Laser love - больше, чем просто бьюти-студия</h2>
+                        <div class="content-text__wrapper">
+                            <div class="description">
+                                Мы не просто предлагаем услуги по лазерной эпиляции и аппаратной косметологии,
+                                мы помогаем вам обрести уверенность в себе, полюбить своё тело. Наши специалисты —
+                                опытные профессионалы с медицинским образованием и большим опытом работы. Мы используем
+                                современное оборудование, включая лазерный аппарат PULSAR, сертифицированный в Европе,
+                                что обеспечивает видимые результаты уже после первого визита.
+                            </div>
+                            <div class="links">
+                                <div class="inscription"><span class="underline">Показываем силу вашей</span> красоты!
+                                </div>
+                                <div class="sign-btn">
+                                    <div class="circle-image">
+                                        <img class="btn-text" src="./assets/image/btn-text.png" alt=""
+                                            class="circle-text">
+                                    </div>
+                                    <svg>
+                                        <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="price-inner">
+                <h2 class="title">Услуги и цены</h2>
+                <div class="tabs content js-sevice">
+                    <div class="tab-item tab-item__active">Лазерная эпиляция </div>
+                    <div class="tab-item">SMAS лифтинг </div>
+                    <div class="tab-item">Криолиполиз</div>
+                    <div class="tab-item">Emsculpt</div>
+                    <div class="tab-item">Эндосфера</div>
+                    <div class="tab-item">Ручной массаж</div>
+                </div>
+                <div class="srevice-items">
+                    <div class="service-items__inner">
+                        <h3 class="title">эпиляция диодным лазером PULSAR</h3>
+                        <div class="quote decor-text">Наш лазер не имеет аналогов!</div>
+                        <div class="description content">
+                            Разработанный практикующим тренером лазерной эпиляции, PULSAR учитывает все нюансы процедуры
+                            и обеспечивает максимально эффективный результат. Сборка на сертифицированном производстве
+                            с использованием лучших немецких комплектующих гарантирует безопасность и надёжность.
+                            Уникальные характеристики нашего лазера позволяют безболезненно и надолго удалять волосы
+                            всех типов, даже самых светлых.
+                        </div>
+                    </div>
+                    <div class="slider-section">
+                        <div class="price-slider">
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="./assets/image/price1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./assets/image/price5.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="./assets/image/price1.jpg" alt=""></div>
+
+                                <div class="swiper-slide"><img src="./assets/image/price2.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="slider-btns">
+                            <div class="swiper-button-left">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-right">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price-list-section">
+                        <div class="tabs content js-sex">
+                            <div class="tab-item tab-item__active ">WomEn</div>
+                            <div class="tab-item">Men</div>
+                        </div>
+                        <div class="price-list-items">
+                            <div class="price-list-item">
+                                <div class="item-title decor-text">Лицо</div>
+                                <div class="price-list-content content">
+                                    <div class="price-named">Лицо полностью</div>
+                                    <div class="price-cost">
+                                        <span class="cost">350</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Подбородок</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Верхня губа</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Шея</div>
+                                    <div class="price-cost">
+                                        <span class="cost">300</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-list-item">
+                                <div class="item-title decor-text">Лицо</div>
+                                <div class="price-list-content content">
+                                    <div class="price-named">Лицо полностью</div>
+                                    <div class="price-cost">
+                                        <span class="cost">350</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Подбородок</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Верхня губа</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Шея</div>
+                                    <div class="price-cost">
+                                        <span class="cost">300</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-list-item">
+                                <div class="item-title decor-text">Лицо</div>
+                                <div class="price-list-content content">
+                                    <div class="price-named">Лицо полностью</div>
+                                    <div class="price-cost">
+                                        <span class="cost">350</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Подбородок</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Верхня губа</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Шея</div>
+                                    <div class="price-cost">
+                                        <span class="cost">300</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-list-item">
+                                <div class="item-title decor-text">Лицо</div>
+                                <div class="price-list-content content">
+                                    <div class="price-named">Лицо полностью</div>
+                                    <div class="price-cost">
+                                        <span class="cost">350</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Подбородок</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Верхня губа</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Шея</div>
+                                    <div class="price-cost">
+                                        <span class="cost">300</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="price-list-item">
+                                <div class="item-title decor-text">Лицо</div>
+                                <div class="price-list-content content">
+                                    <div class="price-named">Лицо полностью</div>
+                                    <div class="price-cost">
+                                        <span class="cost">350</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Подбородок</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Верхня губа</div>
+                                    <div class="price-cost">
+                                        <span class="cost">200</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                    <div class="price-named">Шея</div>
+                                    <div class="price-cost">
+                                        <span class="cost">300</span>
+                                        <span class="currency"> Р</span>
+                                        / <span class="duration">15</span>
+                                        <span class="unit">мин</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="abonent">
+        <img src="./assets/image/svg/abonent-bg.svg" alt="" class="abonent-bg">
+        <div class="container">
+            <div class="abonent-wrapper">
+                <h2 class="content">Выгоднее с абонементом!</h2>
+                <div class="flyer-items">
+                    <div class="flyer-item">
+                        <div class="flyer-item-inner">
+                            <div class="flyer-decor-image"><img src="./assets/image/svg/dots.svg" alt=""></div>
+                            <h3 class="decor-text">скидка</h3>
+                            <div class="discount">15%</div>
+                            <div class="description content">при покупке абонемента на 5 процедур</div>
+                            <div class="note">*на комплекс или одну зону </div>
+                            <div class="sign-btn">
+                                <div class="circle-image">
+                                    <img class="btn-text" src="./assets/image/btn-text.png" alt="" class="circle-text">
+                                </div>
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="flyer-item">
+                        <div class="flyer-item-inner">
+                            <div class="flyer-decor-image"><img src="./assets/image/svg/dots.svg" alt=""></div>
+                            <h3 class="decor-text">скидка</h3>
+                            <div class="discount">20%</div>
+                            <div class="description content">при покупке абонемента на 10 процедур</div>
+                            <div class="note">*на комплекс или одну зону </div>
+                            <div class="sign-btn">
+                                <div class="circle-image">
+                                    <img class="btn-text" src="./assets/image/btn-text.png" alt="" class="circle-text">
+                                </div>
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews-wrapper">
+                <div class="reviews-top">
+                    <h2 class="title">Отзывы наших клиентов</h2>
+                    <div class="links">
+                        <span class="decor-text underline">Смотреть больше отзывов</span>
+                        <div class="soc-link">
+                            <a href="#">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#inst-light"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-section">
+                    <div class="slider-section-wrapper">
+                        <div class="reviews-slider">
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide"><img src="./assets/image/review-slide1.jpg" alt="">
+                                    <div class="soc-link">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="./assets/image/svg/laser-sprite.svg#youTube"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./assets/image/review-slide1.jpg" alt="">
+                                    <div class="soc-link">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="./assets/image/svg/laser-sprite.svg#youTube"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./assets/image/review-slide1.jpg" alt="">
+                                    <div class="soc-link">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="./assets/image/svg/laser-sprite.svg#youTube"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img src="./assets/image/review-slide1.jpg" alt="">
+                                    <div class="soc-link">
+                                        <a href="#">
+                                            <svg>
+                                                <use xlink:href="./assets/image/svg/laser-sprite.svg#youTube"></use>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="slider-btns">
+                            <div class="swiper-button-left">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+                            <div class="swiper-button-right">
+                                <svg>
+                                    <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-team">
+        <div class="container">
+            <div class="our-team-wrapper">
+                <h2 class="title">Наша команда</h2>
+                <div class="our-team-inner">
+                    <div class="team-item">
+                        <div class="content">
+                            <div class="team-item-property">
+                                <h2 class="name title">Лилия сафьяниК</h2>
+                                <div class="profession decor-text underline">Старший мастер</div>
+                            </div>
+                            <div class="description">
+                                Я являюсь студенткой Медицинского факультета по специальности «лечебное Дело»
+                                и сертифицированный мастер лазерной эпиляции. С детства мечтала связать свою жизнь
+                                со сферой красоты. Каждая девушка заслуживает чувствовать себя уверенно и красиво.
+                                И лазерная эпиляция отлично с этим справится.
+                            </div>
+                            <div class="profession-tabs">
+                                <div class="profession-tab decor-text">Лазер</div>
+                                <div class="profession-tab decor-text">Криолиполиз</div>
+                                <div class="profession-tab decor-text">SMAS</div>
+                                <div class="profession-tab decor-text">Emsculpt</div>
+                                <div class="profession-tab decor-text">Эндосфера</div>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/image/team1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="team-item">
+                        <div class="content">
+                            <div class="team-item-property">
+                                <h2 class="name title">Лилия сафьяниК</h2>
+                                <div class="profession decor-text underline">Старший мастер</div>
+                            </div>
+                            <div class="description">
+                                Я являюсь студенткой Медицинского факультета по специальности «лечебное Дело»
+                                и сертифицированный мастер лазерной эпиляции. С детства мечтала связать свою жизнь
+                                со сферой красоты. Каждая девушка заслуживает чувствовать себя уверенно и красиво.
+                                И лазерная эпиляция отлично с этим справится.
+                            </div>
+                            <div class="profession-tabs">
+                                <div class="profession-tab decor-text">Лазер</div>
+                                <div class="profession-tab decor-text">Криолиполиз</div>
+                                <div class="profession-tab decor-text">SMAS</div>
+                                <div class="profession-tab decor-text">Emsculpt</div>
+                                <div class="profession-tab decor-text">Эндосфера</div>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/image/team1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="team-item">
+                        <div class="content">
+                            <div class="team-item-property">
+                                <h2 class="name title">Лилия сафьяниК</h2>
+                                <div class="profession decor-text underline">Старший мастер</div>
+                            </div>
+                            <div class="description">
+                                Я являюсь студенткой Медицинского факультета по специальности «лечебное Дело»
+                                и сертифицированный мастер лазерной эпиляции. С детства мечтала связать свою жизнь
+                                со сферой красоты. Каждая девушка заслуживает чувствовать себя уверенно и красиво.
+                                И лазерная эпиляция отлично с этим справится.
+                            </div>
+                            <div class="profession-tabs">
+                                <div class="profession-tab decor-text">Лазер</div>
+                                <div class="profession-tab decor-text">Криолиполиз</div>
+                                <div class="profession-tab decor-text">SMAS</div>
+                                <div class="profession-tab decor-text">Emsculpt</div>
+                                <div class="profession-tab decor-text">Эндосфера</div>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="./assets/image/team1.jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="form-contact">
+        <img class="image-bg" src="./assets/image/form-contact-bg.jpg" alt="">
+        <div class="container">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="content">
+                        <h2 class="title">Запишитесь на сеанс</h2>
+                        <div class="content-text__wrapper">
+                            <div class="description">
+                                Оставьте свой номер телефона и мы свяжемся с вами для уточнения удобного времени
+                            </div>
+
+
+                            <form class="form-contact-blank" name="form-contact" method="post">
+                                <input class="name" type="text" id="name" name="name" required placeholder="ФИО" />
+                                <input class="phone" type="tel" id="phone" name="phone" required
+                                    placeholder="Контактный телефон" />
+
+                                <div class="inscription decor-text">Нажимая кнопку «Записаться
+                                    на сеанс», вы соглашаетесь с <u>Политикой конфиденциальности и Обработки
+                                        персональных данных.</u>
+                                </div>
+                                <button class="submit" type="submit">
+                                    <div class="sign-btn">
+                                        <div class="circle-image">
+                                            <img class="btn-text" src="./assets/image/btn-text.png" alt=""
+                                                class="circle-text">
+                                        </div>
+                                        <svg>
+                                            <use xlink:href="./assets/image/svg/laser-sprite.svg#arrow-right"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <h2 class="title">Контакты</h2>
+                <div class="footer-items">
+                    <div class="footer-hidden"></div>
+                    <div class="footer-logo">
+                        <img src="./assets/image/svg/logo-light.svg" alt="">
+                    </div>
+                    <div class="contacts-adress contacts">
+                        <div class="contact-block">
+                            <div class="contact-name decor-text">Адрес</div>
+                            <div class="description content">г. Тирасполь, ул. 25 октября, 84</div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name decor-text">Адрес</div>
+                            <div class="description content">г. Тирасполь, ул. 25 октября, 84</div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">О студии</a></li>
+                            <li><a href="#">Услуги и прайс</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Команда</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts-phone contacts">
+                        <div class="contact-block">
+                            <div class="contact-name decor-text">Адрес</div>
+                            <div class="description content">г. Тирасполь, ул. 25 октября, 84</div>
+                        </div>
+                        <div class="contact-block">
+                            <div class="contact-name decor-text">Адрес</div>
+                            <div class="description content">г. Тирасполь, ул. 25 октября, 84</div>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h3 class="decor-text link-title">Ищите нас в  соц. сетях</h3>
+                        <div class="soc-links">
+                            <div class="soc-link">
+                                <!-- add SVG sprite -->
+                                <a href="#">
+                                    <svg class="insta">
+                                        <use xlink:href="./assets/image/svg/laser-sprite.svg#inst-footer"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="soc-link">
+                                <!-- add SVG sprite -->
+                                <a href="#">
+                                    <svg>
+                                        <use xlink:href="./assets/image/svg/laser-sprite.svg#viber"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="soc-link">
+                                <!-- add SVG sprite -->
+                                <a href="#">
+                                    <svg>
+                                        <use xlink:href="./assets/image/svg/laser-sprite.svg#telegram"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/dist/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
+
 </html>

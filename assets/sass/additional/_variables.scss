@@ -1,18 +1,39 @@
-$container-width: 1240px;
+$container-width: 1120px;
 $container-padding-x: 20px;
 $max-width-container: calc($container-width + $container-padding-x * 2);
 
 :root {
     // color
-    // --color-ligth:;
-    // --color-dark:;
-    // --colo-dark-alt:;
-    // --color-gray:;
-    // --color-fray-alt:;
+
+    --color-main: #B70D0D;
+    --color-main-dark: #882F2F;
+    --color-main-hover: #CA5151;
+    --color-main-bg:#BC3637;
+    --color-ligth:#FCF8F7;
+    --color-ligth-bg:#F6F2F0;
+    --color-ligth-footer-alt:#85817C;
+    --color-ligth-footer-links:#B2AEAA;
+    --color-footer-bg:#3A352E;
+    
+    
+    --color-text-dark:#2C2C2E;
+    --colo-alt: #D4888C;
+    --color-gray: #8E8E93;
+    --color-heard: #CC978E;
+    --color-text-alt: #464646;
+    
+    
+    --color-ligth-bg-block:#FFFBFA;
+    --color-border-block: #97877d34;
+    --color-whiter:#ffffff;
+    --color-tab-border: #B1B1B1;
+    --color-cost-item:#EAE4E1;
+
+     --color-gray-text-politic: #B9B7B6;
     // --color-accent:;
 
-    --font-family-base: sans-serif;
-
+    --font-family-base: Montserrat;
+ 
     // border
     // --border: 1px solid var(--color-dark);
     // --border-radius: ;
@@ -32,7 +53,7 @@ $max-width-container: calc($container-width + $container-padding-x * 2);
     // --input-height:;
     // --button-height:;
     
-    // --transition-duration:;
+     --transition-duration: 0.3s;
     
     // ! переменные sass не видны, если их принимают внутри блока {}
     
